@@ -57,6 +57,7 @@ export class App extends Component {
       }
     ]
   }
+
   clickHandler = (signature) => {
     this.setState({
       votes: this.state.information.map(elem => {
@@ -66,7 +67,7 @@ export class App extends Component {
         return elem;
       })
     })
-
+    this.state.information.sort((a, b) => b.votes - a.votes)
   };
 
   render() {
