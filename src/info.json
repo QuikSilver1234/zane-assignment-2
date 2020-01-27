@@ -1,0 +1,27 @@
+{
+    "jinx": {
+        "name": "Jinx",
+        "releaseDate": "October 10, 2013",
+        "classification": "Hypercarry",
+        "designer": "RiotAugust"
+    },
+    "kog'maw": {
+        "name": "Kog'Maw",
+        "releaseDate": "June 24, 2010",
+        "classification": "Hypercarry",
+        "designer": "RiotPendragon"
+    },
+    "ezreal": {
+        "name": "Ezreal",
+        "releaseDate": "March 16, 2010",
+        "classification": "Artillery Marksman",
+        "designer": "RiotEzreal"
+    },
+    "caitlyn": {
+        "name": "Caitlyn",
+        "releaseDate": "January 4, 2011",
+        "classification": "Siege Marksman",
+        "designer": "RiotCertainlyT"
+    },
+    "lucian": {}
+}
