@@ -1,21 +1,21 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class VoteItem extends Component {
-    render() {
-        return (
-            <div className="container">
-                <div className="image"><img src={this.props.splash} /></div>
-                <div class="votebutton"><button>Vote</button></div>
-                <div class="info">
 
-                    <h3>{this.props.name}</h3>
-                    <p>Released on {this.props.releasedate}</p>
-                    <p>Designed by {this.props.designer}</p>
-                    <p>Marksman type: {this.props.classification}</p>
-                </div>
-            </div>
-        )
-    }
+const VoteItem = (props) => {
+
+  return (
+    <div className="container">
+      <div><img className="image" src={props.info.splash} /></div>
+      <div className="votebutton"><button onClick={() => props.clickHandler(props.info.id)}>Vote! Total votes: {props.info.votes}</button></div>
+      <div className="info">
+
+        <h3>{props.name}</h3>
+        <a href={props.info.info}>More Info</a>
+        <p>Released on {props.info.releasedate}</p>
+        <p>Designed by {props.info.designer}</p>
+        <p>Marksman type: {props.info.classification}</p>
+      </div>
+    </div>
+  )
 }
-
 export default VoteItem

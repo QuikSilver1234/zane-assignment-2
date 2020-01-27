@@ -1,11 +1,35 @@
+* {
+    text-align: center;
+}
+
 .header {
     
     margin: 10px;
 }
 .wrapper {
-    width: 900px;
+    width: 445px;
 }
 .image {
+    padding: 20px;
+    width: 90%;
+}
 
-    max-width: 400px;
+.items {
+    
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.info, button {
+    padding: 20px;
+}
+
+button {
+    background-color: lightblue;
+    margin-left: 10px;
+    margin-right: 10px;
 }
